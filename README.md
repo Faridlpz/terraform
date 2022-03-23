@@ -11,9 +11,15 @@ Best practices using terraform
 **terraform apply -var-file="vars/dev.tfvars"** 
 
 # CI/CD
-## Continous Integration 
+## Continuous Integration 
 
 Is nothing else but building and testing your application and its very importat that your CI contains trigger event when you do a commit 
 
-## Continous Delivery 
+## Continuous Delivery 
 Is normally deploy to your test environment like DEV, QA or PROD
+
+## MYSQL
+
+In addition we are creating database and tables using terraform module
+
+We are creating a new resource to create a new database into the MySQL workbench and also adding a Mysql provider.
