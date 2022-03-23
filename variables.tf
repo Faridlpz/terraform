@@ -6,3 +6,10 @@ variable "filename" {
   description = "The path to the file that will be created. Missing parent directories will be created. If the file already exists, it will be overridden with the given content."
   type        = string
 }
+
+# Mysql configuration
+
+variable "name"{
+    description = "value"
+    type = string
+}
