@@ -7,9 +7,19 @@ variable "filename" {
   type        = string
 }
 
+variable "conditional" {
+  description = "value"
+  type        = string
+  default     = "production"
+}
+variable "content_production" {
+  description = "value"
+  type        = string
+}
+
 # Mysql configuration
 
-variable "name"{
-    description = "value"
-    type = string
-}
+# variable "name" {
+#   description = "value"
+#   type        = string
+# }

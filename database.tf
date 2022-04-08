@@ -1,3 +1,3 @@
-resource "mysql_database" "app" {
-  name = var.name
-}
+# resource "mysql_database" "app" {
+#   name = var.name
+# }
